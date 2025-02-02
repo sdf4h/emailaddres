@@ -16,3 +16,15 @@ tmpmail -l
 tmpmail -r 1 -> Открывает письмо с ID 1.
 ```
 
+Как скачать 
+```bash
+   sudo apt update
+   sudo apt install curl jq
+```
+```bash
+   wget -O tmpmail https://raw.githubusercontent.com/sdushantha/tmpmail/master/tmpmail
+   chmod +x tmpmail
+   sudo mv tmpmail /usr/local/bin/
+```
+
+
